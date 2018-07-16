@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Website Layout</title>
+    <meta name="author" content="your name" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+    
+<!-- html -->
+    
+<body>
+    <div id="page">
+        <div id="logo">
+            <h1><a href="/" id="logoLink">Sample Website Layout</a></h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#/home.html">Home</a></li>
+                <li><a href="#/about.html">About</a></li>
+                <li><a href="#/contact.html">Contact</a></li>
+            </ul>    
+        </div>
+        <div id="content">
+            
+            <img src="" alt="logo" class id="img"/>
+            
+    </br>
+    </br>
+    </br>
+            
+            <h2 class id="home">Home</h2>
+            
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <p> 
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+    
+            
+    
+        </div>
+        <div id="footer">
+            <p>@Ryan Arevalo</p>
+        </div>
+    </div>
+</body>
+    
+    
+<!-- css under this -->
+    
+    <style>
+        
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: blue;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+    color: black;
+    text-decoration: none;
+}
+    a:hover,
+    a:active{ text-decoration: underline; }
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+
+#page{ margin: 20px; }
+
+
+#logo{
+    width: 35%;
+    margin-top: 5px;
+    font-family: inherit;
+    display: inline-block;
+}
+
+#nav{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+    #nav ul{}
+        #nav ul li{
+            display: inline-block;
+            height: 62px;
+        }
+            #nav ul li a{
+                padding: 20px;
+                background: blue;
+                color: white;
+            }
+            #nav ul li a:hover{
+                background-color: #blue;
+                box-shadow: 0px 1px 1px #666;
+            }
+            #nav ul li a:active{ background-color: dodgerblue; }
+
+#content{
+    margin: 30px 0;
+    background: white;
+    padding: 20px;
+    clear: both;
+}
+#footer{
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 10px;
+}
+    #footer p{
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 80%;
+        color: black;
+    }
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #123; }
+    
+        
+        #img {
+            width: 100px;
+            length: 100px;
+        }
+    
+        #home {
+            font-size: 30px;
+            text-decoration: underline;
+        }
+    
+    </style>
+</html>
